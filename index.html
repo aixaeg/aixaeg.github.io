@@ -6,12 +6,133 @@
 -->
 <html>
 	<head>
-		<title>Dimension by HTML5 UP</title>
+		<title>Aixa Echeverry Gonzales</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/lgallery/css/lightgallery.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style type="text/css">
+				body{
+						background-color: #152836
+				}
+				.demo-gallery ul {
+					margin-bottom: 0;
+				}
+				.demo-gallery ul > li {
+						float: left;
+						margin-bottom: 15px;
+						/*margin-right: 20px;
+						width: 200px;*/
+				}
+				.demo-gallery ul > li a {
+					border: 3px solid #FFF;
+					border-radius: 3px;
+					display: block;
+					overflow: hidden;
+					position: relative;
+					float: left;
+				}
+				.demo-gallery ul > li a > img {
+					-webkit-transition: -webkit-transform 0.15s ease 0s;
+					-moz-transition: -moz-transform 0.15s ease 0s;
+					-o-transition: -o-transform 0.15s ease 0s;
+					transition: transform 0.15s ease 0s;
+					-webkit-transform: scale3d(1, 1, 1);
+					transform: scale3d(1, 1, 1);
+					height: 100%;
+					width: 100%;
+				}
+				.demo-gallery ul > li a:hover > img {
+					-webkit-transform: scale3d(1.1, 1.1, 1.1);
+					transform: scale3d(1.1, 1.1, 1.1);
+				}
+				.demo-gallery ul > li a:hover .demo-gallery-poster > img {
+					opacity: 1;
+				}
+				.demo-gallery ul > li a .demo-gallery-poster {
+					background-color: rgba(0, 0, 0, 0.1);
+					bottom: 0;
+					left: 0;
+					position: absolute;
+					right: 0;
+					top: 0;
+					-webkit-transition: background-color 0.15s ease 0s;
+					-o-transition: background-color 0.15s ease 0s;
+					transition: background-color 0.15s ease 0s;
+				}
+				.demo-gallery ul > li a .demo-gallery-poster > img {
+					left: 50%;
+					margin-left: -10px;
+					margin-top: -10px;
+					opacity: 0;
+					position: absolute;
+					top: 50%;
+					-webkit-transition: opacity 0.3s ease 0s;
+					-o-transition: opacity 0.3s ease 0s;
+					transition: opacity 0.3s ease 0s;
+				}
+				.demo-gallery ul > li a:hover .demo-gallery-poster {
+					background-color: rgba(0, 0, 0, 0.5);
+				}
+				.demo-gallery .justified-gallery > a > img {
+					-webkit-transition: -webkit-transform 0.15s ease 0s;
+					-moz-transition: -moz-transform 0.15s ease 0s;
+					-o-transition: -o-transform 0.15s ease 0s;
+					transition: transform 0.15s ease 0s;
+					-webkit-transform: scale3d(1, 1, 1);
+					transform: scale3d(1, 1, 1);
+					height: 100%;
+					width: 100%;
+				}
+				.demo-gallery .justified-gallery > a:hover > img {
+					-webkit-transform: scale3d(1.1, 1.1, 1.1);
+					transform: scale3d(1.1, 1.1, 1.1);
+				}
+				.demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
+					opacity: 1;
+				}
+				.demo-gallery .justified-gallery > a .demo-gallery-poster {
+					background-color: rgba(0, 0, 0, 0.1);
+					bottom: 0;
+					left: 0;
+					position: absolute;
+					right: 0;
+					top: 0;
+					-webkit-transition: background-color 0.15s ease 0s;
+					-o-transition: background-color 0.15s ease 0s;
+					transition: background-color 0.15s ease 0s;
+				}
+				.demo-gallery .justified-gallery > a .demo-gallery-poster > img {
+					left: 50%;
+					margin-left: -10px;
+					margin-top: -10px;
+					opacity: 0;
+					position: absolute;
+					top: 50%;
+					-webkit-transition: opacity 0.3s ease 0s;
+					-o-transition: opacity 0.3s ease 0s;
+					transition: opacity 0.3s ease 0s;
+				}
+				.demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
+					background-color: rgba(0, 0, 0, 0.5);
+				}
+				.demo-gallery .video .demo-gallery-poster img {
+					height: 48px;
+					margin-left: -24px;
+					margin-top: -24px;
+					opacity: 0.8;
+					width: 48px;
+				}
+				.demo-gallery.dark > ul > li a {
+					border: 3px solid #04070a;
+				}
+				.home .demo-gallery {
+					padding-bottom: 80px;
+				}
+		</style>
 	</head>
 	<body>
 
@@ -21,21 +142,21 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-diamond"></span>
+							<span class="icon fa-home"></span>
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Dimension</h1>
+								<h1>Aixa E.G.</h1>
 								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
 								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
 							</div>
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#intro">Pintura</a></li>
+								<li><a href="#work">Enciclopedia del hogar</a></li>
+								<li><a href="#about">Otras cosas</a></li>
+								<li><a href="#contact">Sobre mi</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
@@ -46,18 +167,93 @@
 
 						<!-- Intro -->
 							<article id="intro">
-								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<h2 class="major">Pintura</h2>
+								<!-- <span class="image main"><img src="images/pintura/2.jpg" alt="" /></span> -->
+								<div class="demo-gallery">
+				            <div id="pinturasGallery" class="list-unstyled container-fluid">
+				                <ul class="row">
+													<li class="col-xs-6 col-sm-4 col-md-4 pintura" data-responsive="images/pintura/21.jpg 375, images/pintura/21.jpg 480, images/pintura/21.jpg 800" data-src="images/pintura/21.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+					                    <a href="">
+					                        <img class="img-responsive" src="images/pintura/21.jpg">
+					                    </a>
+					                </li>
+					                <li class="col-xs-6 col-sm-4 col-md-4 pintura" data-src="images/pintura/22.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+					                    <a href="">
+					                        <img class="img-responsive" src="images/pintura/22.jpg">
+					                    </a>
+					                </li>
+													<li class="col-xs-6 col-sm-4 col-md-4 pintura" data-src="images/pintura/23.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+					                    <a href="">
+					                        <img class="img-responsive" src="images/pintura/23.jpg">
+					                    </a>
+					                </li>
+				                </ul>
+
+												<ul class="row">
+													<li class="col-xs-6 col-sm-6 col-md-6 pintura" data-src="images/pintura/1.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+					                    <a href="">
+					                        <img class="img-responsive" src="images/pintura/1.jpg">
+					                    </a>
+					                </li>
+					                <li class="col-xs-6 col-sm-6 col-md-6 pintura" data-src="images/pintura/2.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+					                    <a href="">
+					                        <img class="img-responsive" src="images/pintura/2.jpg">
+					                    </a>
+					                </li>
+												</ul>
+
+												<ul class="row">
+													<li class="col-xs-6 col-sm-4 col-md-4 pintura" data-src="images/pintura/31.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+					                    <a href="">
+					                        <img class="img-responsive" src="images/pintura/31.jpg">
+					                    </a>
+					                </li>
+													<li class="col-xs-6 col-sm-4 col-md-4 pintura" data-src="images/pintura/32.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+					                    <a href="">
+					                        <img class="img-responsive" src="images/pintura/32.jpg">
+					                    </a>
+					                </li>
+					                <li class="col-xs-6 col-sm-4 col-md-4 pintura" data-src="images/pintura/33.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+					                    <a href="">
+					                        <img class="img-responsive" src="images/pintura/33.jpg">
+					                    </a>
+					                </li>
+												</ul>
+				            </div>
+				        </div>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<h2 class="major">Enciclopedia del hogar</h2>
+								<p>Enciclopedia del Hogar  se plantea como proyecto de investigación con el subtitulo: construcción, destrucción y permanencia de un lugar: </p>
+								<p> la casa, desarrollado de manera enciclopédica con el primer capitulo (muestra) CASA ARMABLE.  El subtitulo  de la investigación  se despliega como pasos que pueden variar de orden  y de manera cíclica en cada capítulo (metodología), lo que seria en proyectos posteriores.  En este primer paso de la investigación es necesario enfrentar lo que se define como: íntimo y público en diferentes escalas,  el acceso y posición que tiene el espectador frente a un lugar al que normalmente no accede, la casa del otro. Otro que puede ser vecino, colega, desconocido…  los límites se disuelven y a las barreras se les puede extraer ladrillos.</p>
+								<div class="demo-gallery">
+									<div id="encilopediaGallery" class="list-unstyled container-fluid">
+											<ul class="row">
+												<li class="col-xs-6 col-sm-4 col-md-4 enciclopedia" data-src="images/enciclopedia/3.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+														<a href="">
+																<img class="img-responsive" src="images/enciclopedia/3.jpg">
+														</a>
+												</li>
+												<li class="col-xs-6 col-sm-4 col-md-4 enciclopedia" data-src="images/enciclopedia/4.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+														<a href="">
+																<img class="img-responsive" src="images/enciclopedia/4.jpg">
+														</a>
+												</li>
+												<li class="col-xs-6 col-sm-4 col-md-4 enciclopedia" data-src="images/enciclopedia/2.JPG" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+														<a href="">
+																<img class="img-responsive" src="images/enciclopedia/2.JPG">
+														</a>
+												</li>
+												<li class="col-xs-6 col-sm-6 col-md-6 enciclopedia" data-src="images/enciclopedia/1.png" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
+														<a href="">
+																<img class="img-responsive" src="images/enciclopedia/1.png">
+														</a>
+												</li>
+											</ul>
+									</div>
+				        </div>
 							</article>
 
 						<!-- About -->
@@ -355,6 +551,27 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		<!-- Light Gallery -->
+			<script type="text/javascript">
+			$(document).ready(function(){
+					$('#pinturasGallery').lightGallery({
+					    selector: '.pintura'
+					});
+					$('#encilopediaGallery').lightGallery({
+					    selector: '.enciclopedia'
+					});
+			});
+			</script>
+			<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+			<script src="assets/lgallery/js/lightgallery.js"></script>
+			<script src="assets/lgallery/js/lg-fullscreen.js"></script>
+			<script src="assets/lgallery/js/lg-thumbnail.js"></script>
+			<script src="assets/lgallery/js/lg-video.js"></script>
+			<script src="assets/lgallery/js/lg-autoplay.js"></script>
+			<script src="assets/lgallery/js/lg-zoom.js"></script>
+			<script src="assets/lgallery/js/lg-hash.js"></script>
+			<script src="assets/lgallery/js/lg-pager.js"></script>
+			<script src="assets/lgallery/js/jquery.mousewheel.min.js"></script>
 
 	</body>
 </html>

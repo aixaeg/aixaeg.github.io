@@ -1,5 +1,7 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");*/
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 /*
 	Dimension by HTML5 UP
@@ -14,7 +16,7 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
+		font-family: 'Libre Baskerville', serif;
 		vertical-align: baseline;
 	}
 
@@ -695,7 +697,7 @@
 		}
 
 	ul {
-		list-style: disc;
+		*list-style: disc;
 		margin: 0 0 2rem 0;
 		padding-left: 1em;
 	}
@@ -1091,10 +1093,10 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/fondo.jpg");
 			background-position: center;
-			background-size: cover;
-			background-repeat: no-repeat;
+			/*background-size: cover;*/
+			background-repeat: repeat;
 			z-index: 1;
 		}
 
@@ -1309,7 +1311,7 @@
 						background-color: rgba(255, 255, 255, 0.175);
 					}
 
-		#header nav.use-middle:after {
+		/*#header nav.use-middle:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1318,11 +1320,11 @@
 			width: 1px;
 			height: 100%;
 			background: #ffffff;
-		}
+		}*/
 
-		#header nav.use-middle ul li.is-middle {
+		/*#header nav.use-middle ul li.is-middle {
 			border-left: 0;
-		}
+		}*/
 
 		body.is-article-visible #header {
 			-moz-transform: scale(0.95);
@@ -1477,7 +1479,7 @@
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			width: 80%;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
