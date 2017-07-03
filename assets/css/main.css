@@ -664,9 +664,9 @@
 			width: 100%;
 		}
 
-			.image.main img {
-				width: 100%;
-			}
+		.image.main img {
+			width: 100%;
+		}
 
 		@media screen and (max-width: 736px) {
 
@@ -1231,10 +1231,11 @@
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+	    background-color: rgba(200,200,200,0.3);
 		}
 
 			#header .logo .icon:before {
-				font-size: 2rem;
+				font-size: 2.5rem;
 			}
 
 		#header .content {
@@ -1242,7 +1243,7 @@
 			border-color: #ffffff;
 			border-top-width: 1px;
 			border-bottom-width: 1px;
-			max-width: 100%;
+			max-width: 80%;
 		}
 
 			#header .content .inner {
@@ -1285,6 +1286,7 @@
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
+				background-color: rgba(0, 0, 0, 0.4);
 			}
 
 				#header nav ul li:first-child {
@@ -1574,26 +1576,44 @@
 		text-align: center;
 	}
 
-		#footer .copyright {
-			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
-			opacity: 0.75;
-			margin-bottom: 0;
-			text-transform: uppercase;
-		}
+	#footer img {
+		width: 170px;
+	}
 
-		body.is-article-visible #footer {
-			-moz-transform: scale(0.95);
-			-webkit-transform: scale(0.95);
-			-ms-transform: scale(0.95);
-			transform: scale(0.95);
-			-moz-filter: blur(0.1rem);
-			-webkit-filter: blur(0.1rem);
-			-ms-filter: blur(0.1rem);
-			filter: blur(0.1rem);
-			opacity: 0;
-		}
+	#footer .copyright {
+		letter-spacing: 0.2rem;
+		font-size: 0.6rem;
+		opacity: 0.75;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	}
 
-		body.is-loading #footer {
-			opacity: 0;
-		}
+	#footer a,
+ 	#footer a:hover {
+		color: #ffffff;
+	}
+
+	body.is-article-visible #footer {
+		-moz-transform: scale(0.95);
+		-webkit-transform: scale(0.95);
+		-ms-transform: scale(0.95);
+		transform: scale(0.95);
+		-moz-filter: blur(0.1rem);
+		-webkit-filter: blur(0.1rem);
+		-ms-filter: blur(0.1rem);
+		filter: blur(0.1rem);
+		opacity: 0;
+	}
+
+	body.is-loading #footer {
+		opacity: 0;
+	}
+
+
+	/* * * * * * * * * * *
+			Personalizados
+	* * * * * * * * * * */
+
+	article#about .icons a:hover {
+    color: #ffffff;
+	}
