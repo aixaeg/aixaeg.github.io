@@ -1093,7 +1093,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/fondo.jpg");
+			background-image: url("../../images/fondo2.jpg");
 			background-position: center;
 			/*background-size: cover;*/
 			background-repeat: repeat;
@@ -1291,6 +1291,10 @@
 					border-left: 0;
 				}
 
+				#header nav ul li:hover {
+					background-color: rgba(0, 0, 0, 0.75);
+				}
+
 				#header nav ul li a {
 					display: block;
 					min-width: 7.5rem;
@@ -1303,13 +1307,12 @@
 					border-bottom: 0;
 				}
 
+					#header nav ul li a:active,
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						color: #ffffff;
 					}
 
-					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
-					}
+
 
 		/*#header nav.use-middle:after {
 			content: '';
