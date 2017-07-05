@@ -9,8 +9,9 @@
 		<title>Aixa Echeverry González</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" type="x-icon" href="images/favicon.ico">
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
-		<link href="assets/lgallery/css/lightgallery.css" rel="stylesheet">
+		<link href="assets/lgallery/css/lightgallery.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -137,7 +138,7 @@
 	<body>
 
 		<!-- Wrapper -->
-			<div id="wrapper">
+		<div id="wrapper">
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
@@ -153,7 +154,7 @@
 							<ul>
 								<li><a href="#instalacion">Instalación</a></li>
 								<li><a href="#video">Video y Fotografía</a></li>
-								<li><a href="#audio">Audio</a></li>
+								<li><a href="#sonido">Sonido</a></li>
 								<li><a href="#dibujo">Dibujo</a></li>
 								<li><a href="#objeto">Objeto</a></li>
 								<li><a href="#sobre_mi">Sobre mí</a></li>
@@ -199,10 +200,10 @@
 							</article>
 
 						<!-- Audio -->
-						<article id="audio">
+						<article id="sonido">
 							<h2>Congelados</h2>
 							<p>Escucho tenues voces de niños, ruido infantil, doy tres  pasos más,  una voz gruesa pregunta “¿y su mamá, por qué no la llevó?” Entro, estoy en la sala, está oscura y es pequeña.</p>
-							<iframe width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317111028&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+							<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/331606826&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 							<div class="demo-gallery">
 									<div id="audioGallery" class="list-unstyled container-fluid">
 											<ul class="row">
@@ -211,7 +212,7 @@
 																<img class="img-responsive" src="images/audio/1.jpg">
 														</a>
 												</li>
-												<li class="col-xs-12 col-sm-6 col-md-6 audio" data-src="images/audio/1.jpg">
+												<li class="col-xs-12 col-sm-6 col-md-6 audio" data-src="images/audio/2.jpg">
 														<a href="">
 																<img class="img-responsive" src="images/audio/2.jpg">
 														</a>
@@ -429,36 +430,27 @@
 			</div>
 
 		<!-- BG -->
-			<div id="bg"></div>
+		<div id="bg"></div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 		<!-- Light Gallery -->
-			<script type="text/javascript">
-			$(document).ready(function(){
-					$('#audioGallery').lightGallery({selector: '.audio'});
-					$('#pinturasGallery').lightGallery({selector: '.pintura'});
-					$('#dibujoGallery').lightGallery({selector: '.dibujo_mixto'});
-					$('#objetosGallery').lightGallery({selector: '.de_partir'});
-					$('#mantequilleroGallery').lightGallery({selector: '.mantequillero'});
-					$('#retratoGallery').lightGallery({selector: '.retrato'});
-					$('#yolandaGallery').lightGallery({selector: '.yolanda'});
-					$('#gustavoGallery').lightGallery({selector: '.gustavo'});
-			});
-			</script>
-			<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
-			<script src="assets/lgallery/js/lightgallery.js"></script>
-			<script src="assets/lgallery/js/lg-fullscreen.js"></script>
-			<script src="assets/lgallery/js/lg-thumbnail.js"></script>
-			<script src="assets/lgallery/js/lg-video.js"></script>
-			<script src="assets/lgallery/js/lg-autoplay.js"></script>
-			<script src="assets/lgallery/js/lg-zoom.js"></script>
-			<script src="assets/lgallery/js/lg-hash.js"></script>
-			<script src="assets/lgallery/js/lg-pager.js"></script>
-			<script src="assets/lgallery/js/jquery.mousewheel.min.js"></script>
-
+		<script type="text/javascript">
+		$(document).ready(function(){
+				$('#audioGallery').lightGallery({selector: '.audio'});
+				$('#pinturasGallery').lightGallery({selector: '.pintura'});
+				$('#dibujoGallery').lightGallery({selector: '.dibujo_mixto'});
+				$('#objetosGallery').lightGallery({selector: '.de_partir'});
+				$('#mantequilleroGallery').lightGallery({selector: '.mantequillero'});
+				$('#retratoGallery').lightGallery({selector: '.retrato'});
+				$('#yolandaGallery').lightGallery({selector: '.yolanda'});
+				$('#gustavoGallery').lightGallery({selector: '.gustavo'});
+		});
+		</script>
+		<script src="assets/lgallery/js/lightgallery.min.js"></script>
+		<script src="assets/lgallery/js/lg-fullscreen.js"></script>
 	</body>
 </html>
